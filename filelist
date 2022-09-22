@@ -5,7 +5,13 @@
 .tmux.conf
 .Xresources
 
-.config/nvim/init.vim
+.config/nvim/lua/custom/chadrc.lua
+.config/nvim/lua/custom/init.lua
+.config/nvim/lua/custom/mappings.lua
+.config/nvim/lua/custom/plugins/init.lua
+.config/nvim/lua/custom/plugins/lspconfig.lua
+.config/nvim/lua/custom/plugins/null-ls.lua
+.config/nvim/lua/custom/plugins/overrides.lua
 
 .config/alacritty/alacritty.yml
 

@@ -10,13 +10,14 @@ alias asdf="/usr/bin/setxkbmap se us_dvorak -option ; /usr/bin/setxkbmap se us_d
 alias asdfus="/usr/bin/setxkbmap us" 
 alias aoeu="/usr/bin/setxkbmap se"
 alias starre="/usr/bin/setxkbmap se -option lv3:ralt_alt"
+alias win="cd '/mnt/c/Users/skogsemi/Documents/Virtual Machines/Shared/'"
 # /usr/bin/setxkbmap -option "caps:swapescape"
 #}}}
 #{{{ rc
 alias zshrc="nvim ~/.zshrc-personal"
 alias i3rc="nvim ~/.config/i3/config"
 alias picomrc="nvim ~/.config/i3/picom.conf"
-alias vimrc="nvim ~/.config/nvim/init.vim"
+alias vimrc="cd ~/.config/nvim/lua/custom/"
 alias tmuxrc="nvim ~/.tmux.conf"
 alias term="alacritty -e tmux a &; ;disown; exit "
 #}}}
